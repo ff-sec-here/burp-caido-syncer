@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "burp-caido-syncer"
+version = "0.3.0"
+description = "Sync Burp Suite projects into Caido: history, scope, and repeater tabs"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+keywords = ["burp", "caido", "proxy", "security", "pentest", "migration"]
+
+[project.scripts]
+burp-caido-syncer = "burp_caido_syncer.cli:main"
+
+[tool.setuptools]
+packages = ["burp_caido_syncer"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
