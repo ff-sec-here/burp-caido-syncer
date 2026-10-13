@@ -29,7 +29,7 @@ Two stages:
 ## Installation
 
 ```bash
-git clone https://github.com/yourusername/burp-caido-syncer.git
+git clone https://github.com/ff-sec-here/burp-caido-syncer.git
 cd burp-caido-syncer
 python install.py
 ```
